@@ -4,21 +4,9 @@
 
 A VS Code extension to hide/show environment variable values in .env files.
 
-## Configurations
-
-<!-- configs -->
-
-**No data**
-
-<!-- configs -->
-
-## Commands
-
-<!-- commands -->
-
-**No data**
-
-<!-- commands -->
+<p align="center">
+  <img src="preview/kasita-env.png" width=75%>
+</p>
 
 ## License
 
