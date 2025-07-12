@@ -25,7 +25,6 @@
     "onLanguage:dotenv",
     "onLanguage:env",
     "onStartupFinished"
-
   ],
   "contributes": {
     "commands": [
