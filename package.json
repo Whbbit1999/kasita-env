@@ -8,6 +8,10 @@
   "description": "A VS Code extension to hide/show environment variable values in .env files",
   "author": "Whbbit1999",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Whbbit1999/kasita-env"
+  },
   "categories": [
     "Other"
   ],
