@@ -5,7 +5,7 @@
 A VS Code extension to hide/show environment variable values in .env files.
 
 <p align="center">
-  <img src="res/kasita-env.png" width=75%>
+  <img src="https://raw.githubusercontent.com/Whbbit1999/kasita-env/refs/heads/main/res/kasita-env.png" width=75%>
 </p>
 
 ## Configurations
