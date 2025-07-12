@@ -20,7 +20,9 @@ A VS Code extension to hide/show environment variable values in .env files.
 
 <!-- commands -->
 
-**No data**
+| Command                   | Title                        |
+| ------------------------- | ---------------------------- |
+| `kasita-env.toggleValues` | Toggle ENV Values Visibility |
 
 <!-- commands -->
 
