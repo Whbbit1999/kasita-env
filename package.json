@@ -1,12 +1,12 @@
 {
-  "publisher": "whbbit1999",
+  "publisher": "Whbbit1999",
   "name": "kasita-env",
   "displayName": "Kasita ENV",
   "version": "0.0.1",
   "private": true,
   "packageManager": "pnpm@10.4.1",
   "description": "A VS Code extension to hide/show environment variable values in .env files",
-  "author": "whbbit1999",
+  "author": "Whbbit1999",
   "license": "MIT",
   "categories": [
     "Other"
