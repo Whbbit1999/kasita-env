@@ -2,7 +2,7 @@
   "publisher": "Whbbit1999",
   "name": "kasita-env",
   "displayName": "Kasita ENV",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@10.4.1",
   "description": "A VS Code extension to hide/show environment variable values in .env files",
