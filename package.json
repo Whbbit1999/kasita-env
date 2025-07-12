@@ -1,25 +1,13 @@
 {
-  "publisher": "antfu",
-  "name": "ext-name",
-  "displayName": "ext-name",
-  "version": "0.0.0",
+  "publisher": "whbbit1999",
+  "name": "kasita-env",
+  "displayName": "Kasita ENV",
+  "version": "0.0.1",
   "private": true,
   "packageManager": "pnpm@10.4.1",
-  "description": "",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "description": "A VS Code extension to hide/show environment variable values in .env files",
+  "author": "whbbit1999",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/antfu",
-  "homepage": "https://github.com/antfu/ext-name#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/antfu/ext-name"
-  },
-  "bugs": {
-    "url": "https://github.com/antfu/ext-name/issues"
-  },
-  "sponsor": {
-    "url": "https://github.com/sponsors/antfu"
-  },
   "categories": [
     "Other"
   ],
@@ -34,15 +22,18 @@
     "vscode": "^1.97.0"
   },
   "activationEvents": [
+    "onLanguage:dotenv",
+    "onLanguage:env",
     "onStartupFinished"
+
   ],
   "contributes": {
-    "commands": [],
-    "configuration": {
-      "type": "object",
-      "title": "ext-name",
-      "properties": {}
-    }
+    "commands": [
+      {
+        "command": "kasita-env.toggleValues",
+        "title": "Toggle ENV Values Visibility"
+      }
+    ]
   },
   "scripts": {
     "build": "tsdown src/index.ts --external vscode",
