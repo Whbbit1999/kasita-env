@@ -19,14 +19,6 @@
 
 <!-- commands -->
 
-## Sponsors
-
-<p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/antfu/static/sponsors.svg">
-    <img src='https://cdn.jsdelivr.net/gh/antfu/static/sponsors.png'/>
-  </a>
-</p>
-
 ## License
 
-[MIT](./LICENSE.md) License © 2022 [Anthony Fu](https://github.com/antfu)
+[MIT](./LICENSE.md) License © 2025 [Whbbit1999](https://github.com/Whbbit1999)
