@@ -20,9 +20,10 @@ A VS Code extension to hide/show environment variable values in .env files.
 
 <!-- commands -->
 
-| Command                   | Title                        |
-| ------------------------- | ---------------------------- |
-| `kasita-env.toggleValues` | Toggle ENV Values Visibility |
+| Command                   | Title                            |
+| ------------------------- | -------------------------------- |
+| `kasita-env.toggleValues` | Toggle All ENV Values Visibility |
+| `kasita-env.toggleLine`   | Toggle Line Value Visibility     |
 
 <!-- commands -->
 

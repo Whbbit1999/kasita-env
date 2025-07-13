@@ -34,7 +34,18 @@
     "commands": [
       {
         "command": "kasita-env.toggleValues",
-        "title": "Toggle ENV Values Visibility"
+        "title": "Toggle All ENV Values Visibility"
+      },
+      {
+        "command": "kasita-env.toggleLine",
+        "title": "Toggle Line Value Visibility"
+      }
+    ],
+    "languages": [
+      {
+        "id": "dotenv",
+        "extensions": [".env", ".env.local", ".env.development", ".env.production"],
+        "filenames": [".env"]
       }
     ]
   },
