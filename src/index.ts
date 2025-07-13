@@ -110,15 +110,15 @@ const { activate, deactivate } = defineExtension(() => {
     if (!editor || editor.document.uri.toString() !== uri)
       return
 
-    // 切换当前行的可见性并更新装饰器
+    // Toggle visibility and update decorations for the current line
     toggleLineVisibility(uri, line)
 
-    // 只更新当前编辑器的装饰器
+    // Update decorations only for the current editor
     const { hiddenDecorations, visibleDecorations } = getDecorations(editor.document)
     editor.setDecorations(HIDDEN_DECORATION_TYPE, hiddenDecorations)
     editor.setDecorations(VISIBLE_DECORATION_TYPE, visibleDecorations)
 
-    // 刷新 CodeLens
+    // Refresh CodeLens
     codeLensProvider.refresh()
   })
 
@@ -126,6 +126,10 @@ const { activate, deactivate } = defineExtension(() => {
     vscode.window.visibleTextEditors.forEach((editor) => {
       if (isEnvFile(editor.document)) {
         const { hiddenDecorations, visibleDecorations } = getDecorations(editor.document)
+        // Clear all existing decorations
+        editor.setDecorations(HIDDEN_DECORATION_TYPE, [])
+        editor.setDecorations(VISIBLE_DECORATION_TYPE, [])
+        // Apply new decorations
         editor.setDecorations(HIDDEN_DECORATION_TYPE, hiddenDecorations)
         editor.setDecorations(VISIBLE_DECORATION_TYPE, visibleDecorations)
       }

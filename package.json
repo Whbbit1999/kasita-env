@@ -28,6 +28,7 @@
   "activationEvents": [
     "onLanguage:dotenv",
     "onLanguage:env",
+    "workspaceContains:**/.env*",
     "onStartupFinished"
   ],
   "contributes": {
@@ -47,7 +48,15 @@
         "extensions": [".env", ".env.local", ".env.development", ".env.production"],
         "filenames": [".env"]
       }
-    ]
+    ],
+    "configurationDefaults": {
+      "[dotenv]": {
+        "editor.codeLens": true
+      },
+      "[env]": {
+        "editor.codeLens": true
+      }
+    }
   },
   "scripts": {
     "build": "tsdown src/index.ts --external vscode",
