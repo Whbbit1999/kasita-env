@@ -1,6 +1,6 @@
-import { describe, expect, it, beforeEach } from 'vitest'
-import { visibleLines, setActiveEditor, getActiveEditor } from '../src/state'
-import { isEnvFile, getLineVisibility, toggleLineVisibility } from '../src/envUtils'
+import { beforeEach, describe, expect, it } from 'vitest'
+import { getLineVisibility, isEnvFile, toggleLineVisibility } from '../src/envUtils'
+import { getActiveEditor, setActiveEditor, visibleLines } from '../src/state'
 
 describe('state.ts', () => {
   beforeEach(() => {
