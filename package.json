@@ -45,8 +45,15 @@
     "languages": [
       {
         "id": "dotenv",
-        "extensions": [".env", ".env.local", ".env.development", ".env.production"],
-        "filenames": [".env"]
+        "extensions": [
+          ".env",
+          ".env.local",
+          ".env.development",
+          ".env.production"
+        ],
+        "filenames": [
+          ".env"
+        ]
       }
     ],
     "configurationDefaults": {
@@ -85,7 +92,7 @@
     "tsdown": "^0.9.6",
     "typescript": "^5.7.3",
     "vite": "^6.1.0",
-    "vitest": "^3.0.5",
+    "vitest": "^1.4.0",
     "vscode-ext-gen": "^1.0.0"
   },
   "pnpm": {
